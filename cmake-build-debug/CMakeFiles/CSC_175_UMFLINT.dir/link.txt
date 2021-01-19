@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CSC_175_UMFLINT.dir/objects.a
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\ar.exe cr CMakeFiles\CSC_175_UMFLINT.dir/objects.a @CMakeFiles\CSC_175_UMFLINT.dir\objects1.rsp
+C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\CSC_175_UMFLINT.dir/objects.a -Wl,--no-whole-archive  -o CSC_175_UMFLINT.exe -Wl,--out-implib,libCSC_175_UMFLINT.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CSC_175_UMFLINT.dir\linklibs.rsp
