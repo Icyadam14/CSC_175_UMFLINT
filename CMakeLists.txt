@@ -11,3 +11,9 @@ add_executable(main main.cpp)
 add_executable(1_11 Unit_1/1_11.cpp Unit_1/1_11.cpp)
 add_executable(1_12 Unit_1/1_12.cpp)
 add_executable(1_13 Unit_1/1_13.cpp)
+
+# Unit 2 exe
+add_executable(2_25 Unit_2/2_25.cpp)
+add_executable(2_26 Unit_2/2_26.cpp)
+add_executable(2_27 Unit_2/2_27.cpp)
+add_executable(2_28 Unit_2/2_28.cpp)

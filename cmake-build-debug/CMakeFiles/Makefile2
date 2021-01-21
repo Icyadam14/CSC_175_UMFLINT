@@ -54,28 +54,32 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT"
+CMAKE_SOURCE_DIR = C:\Users\adamk\CLionProjects\CSC_175_UMFLINT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug
 
 #=============================================================================
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
 all: CMakeFiles/main.dir/all
+all: CMakeFiles/2_25.dir/all
 all: CMakeFiles/1_11.dir/all
+all: CMakeFiles/2_26.dir/all
 all: CMakeFiles/1_12.dir/all
+all: CMakeFiles/2_27.dir/all
 all: CMakeFiles/1_13.dir/all
+all: CMakeFiles/2_28.dir/all
 
 .PHONY : all
 
@@ -86,9 +90,13 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/main.dir/clean
+clean: CMakeFiles/2_25.dir/clean
 clean: CMakeFiles/1_11.dir/clean
+clean: CMakeFiles/2_26.dir/clean
 clean: CMakeFiles/1_12.dir/clean
+clean: CMakeFiles/2_27.dir/clean
 clean: CMakeFiles/1_13.dir/clean
+clean: CMakeFiles/2_28.dir/clean
 
 .PHONY : clean
 
@@ -99,14 +107,14 @@ clean: CMakeFiles/1_13.dir/clean
 CMakeFiles/main.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" --progress-num=7,8 "Built target main"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles --progress-num=15,16 "Built target main"
 .PHONY : CMakeFiles/main.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/main.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/main.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/main.dir/rule
 
 # Convenience name for target.
@@ -120,20 +128,47 @@ CMakeFiles/main.dir/clean:
 .PHONY : CMakeFiles/main.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2_25.dir
+
+# All Build rule for target.
+CMakeFiles/2_25.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_25.dir\build.make CMakeFiles/2_25.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_25.dir\build.make CMakeFiles/2_25.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles --progress-num=7,8 "Built target 2_25"
+.PHONY : CMakeFiles/2_25.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2_25.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2_25.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2_25.dir/rule
+
+# Convenience name for target.
+2_25: CMakeFiles/2_25.dir/rule
+
+.PHONY : 2_25
+
+# clean rule for target.
+CMakeFiles/2_25.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_25.dir\build.make CMakeFiles/2_25.dir/clean
+.PHONY : CMakeFiles/2_25.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/1_11.dir
 
 # All Build rule for target.
 CMakeFiles/1_11.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_11.dir\build.make CMakeFiles/1_11.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_11.dir\build.make CMakeFiles/1_11.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target 1_11"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target 1_11"
 .PHONY : CMakeFiles/1_11.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1_11.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1_11.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/1_11.dir/rule
 
 # Convenience name for target.
@@ -147,20 +182,47 @@ CMakeFiles/1_11.dir/clean:
 .PHONY : CMakeFiles/1_11.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2_26.dir
+
+# All Build rule for target.
+CMakeFiles/2_26.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_26.dir\build.make CMakeFiles/2_26.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_26.dir\build.make CMakeFiles/2_26.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles --progress-num=9,10 "Built target 2_26"
+.PHONY : CMakeFiles/2_26.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2_26.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2_26.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2_26.dir/rule
+
+# Convenience name for target.
+2_26: CMakeFiles/2_26.dir/rule
+
+.PHONY : 2_26
+
+# clean rule for target.
+CMakeFiles/2_26.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_26.dir\build.make CMakeFiles/2_26.dir/clean
+.PHONY : CMakeFiles/2_26.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/1_12.dir
 
 # All Build rule for target.
 CMakeFiles/1_12.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_12.dir\build.make CMakeFiles/1_12.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_12.dir\build.make CMakeFiles/1_12.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" --progress-num=3,4 "Built target 1_12"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target 1_12"
 .PHONY : CMakeFiles/1_12.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1_12.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1_12.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/1_12.dir/rule
 
 # Convenience name for target.
@@ -174,20 +236,47 @@ CMakeFiles/1_12.dir/clean:
 .PHONY : CMakeFiles/1_12.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/2_27.dir
+
+# All Build rule for target.
+CMakeFiles/2_27.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_27.dir\build.make CMakeFiles/2_27.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_27.dir\build.make CMakeFiles/2_27.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles --progress-num=11,12 "Built target 2_27"
+.PHONY : CMakeFiles/2_27.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2_27.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2_27.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2_27.dir/rule
+
+# Convenience name for target.
+2_27: CMakeFiles/2_27.dir/rule
+
+.PHONY : 2_27
+
+# clean rule for target.
+CMakeFiles/2_27.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_27.dir\build.make CMakeFiles/2_27.dir/clean
+.PHONY : CMakeFiles/2_27.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/1_13.dir
 
 # All Build rule for target.
 CMakeFiles/1_13.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_13.dir\build.make CMakeFiles/1_13.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_13.dir\build.make CMakeFiles/1_13.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" --progress-num=5,6 "Built target 1_13"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles --progress-num=5,6 "Built target 1_13"
 .PHONY : CMakeFiles/1_13.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/1_13.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" 2
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/1_13.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/1_13.dir/rule
 
 # Convenience name for target.
@@ -199,6 +288,33 @@ CMakeFiles/1_13.dir/rule: cmake_check_build_system
 CMakeFiles/1_13.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_13.dir\build.make CMakeFiles/1_13.dir/clean
 .PHONY : CMakeFiles/1_13.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/2_28.dir
+
+# All Build rule for target.
+CMakeFiles/2_28.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_28.dir\build.make CMakeFiles/2_28.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_28.dir\build.make CMakeFiles/2_28.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles --progress-num=13,14 "Built target 2_28"
+.PHONY : CMakeFiles/2_28.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/2_28.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/2_28.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 0
+.PHONY : CMakeFiles/2_28.dir/rule
+
+# Convenience name for target.
+2_28: CMakeFiles/2_28.dir/rule
+
+.PHONY : 2_28
+
+# clean rule for target.
+CMakeFiles/2_28.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_28.dir\build.make CMakeFiles/2_28.dir/clean
+.PHONY : CMakeFiles/2_28.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

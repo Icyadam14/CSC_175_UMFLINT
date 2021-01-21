@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT"
+CMAKE_SOURCE_DIR = C:\Users\adamk\CLionProjects\CSC_175_UMFLINT
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2020.2.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2020.3.1\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\adamk\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -143,6 +143,19 @@ main/fast:
 .PHONY : main/fast
 
 #=============================================================================
+# Target rules for targets named 2_25
+
+# Build rule for target.
+2_25: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2_25
+.PHONY : 2_25
+
+# fast build rule for target.
+2_25/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_25.dir\build.make CMakeFiles/2_25.dir/build
+.PHONY : 2_25/fast
+
+#=============================================================================
 # Target rules for targets named 1_11
 
 # Build rule for target.
@@ -154,6 +167,19 @@ main/fast:
 1_11/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_11.dir\build.make CMakeFiles/1_11.dir/build
 .PHONY : 1_11/fast
+
+#=============================================================================
+# Target rules for targets named 2_26
+
+# Build rule for target.
+2_26: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2_26
+.PHONY : 2_26
+
+# fast build rule for target.
+2_26/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_26.dir\build.make CMakeFiles/2_26.dir/build
+.PHONY : 2_26/fast
 
 #=============================================================================
 # Target rules for targets named 1_12
@@ -169,6 +195,19 @@ main/fast:
 .PHONY : 1_12/fast
 
 #=============================================================================
+# Target rules for targets named 2_27
+
+# Build rule for target.
+2_27: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2_27
+.PHONY : 2_27
+
+# fast build rule for target.
+2_27/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_27.dir\build.make CMakeFiles/2_27.dir/build
+.PHONY : 2_27/fast
+
+#=============================================================================
 # Target rules for targets named 1_13
 
 # Build rule for target.
@@ -180,6 +219,19 @@ main/fast:
 1_13/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_13.dir\build.make CMakeFiles/1_13.dir/build
 .PHONY : 1_13/fast
+
+#=============================================================================
+# Target rules for targets named 2_28
+
+# Build rule for target.
+2_28: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 2_28
+.PHONY : 2_28
+
+# fast build rule for target.
+2_28/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_28.dir\build.make CMakeFiles/2_28.dir/build
+.PHONY : 2_28/fast
 
 Unit_1/1_11.obj: Unit_1/1_11.cpp.obj
 
@@ -262,6 +314,114 @@ Unit_1/1_13.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_13.dir\build.make CMakeFiles/1_13.dir/Unit_1/1_13.cpp.s
 .PHONY : Unit_1/1_13.cpp.s
 
+Unit_2/2_25.obj: Unit_2/2_25.cpp.obj
+
+.PHONY : Unit_2/2_25.obj
+
+# target to build an object file
+Unit_2/2_25.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_25.dir\build.make CMakeFiles/2_25.dir/Unit_2/2_25.cpp.obj
+.PHONY : Unit_2/2_25.cpp.obj
+
+Unit_2/2_25.i: Unit_2/2_25.cpp.i
+
+.PHONY : Unit_2/2_25.i
+
+# target to preprocess a source file
+Unit_2/2_25.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_25.dir\build.make CMakeFiles/2_25.dir/Unit_2/2_25.cpp.i
+.PHONY : Unit_2/2_25.cpp.i
+
+Unit_2/2_25.s: Unit_2/2_25.cpp.s
+
+.PHONY : Unit_2/2_25.s
+
+# target to generate assembly for a file
+Unit_2/2_25.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_25.dir\build.make CMakeFiles/2_25.dir/Unit_2/2_25.cpp.s
+.PHONY : Unit_2/2_25.cpp.s
+
+Unit_2/2_26.obj: Unit_2/2_26.cpp.obj
+
+.PHONY : Unit_2/2_26.obj
+
+# target to build an object file
+Unit_2/2_26.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_26.dir\build.make CMakeFiles/2_26.dir/Unit_2/2_26.cpp.obj
+.PHONY : Unit_2/2_26.cpp.obj
+
+Unit_2/2_26.i: Unit_2/2_26.cpp.i
+
+.PHONY : Unit_2/2_26.i
+
+# target to preprocess a source file
+Unit_2/2_26.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_26.dir\build.make CMakeFiles/2_26.dir/Unit_2/2_26.cpp.i
+.PHONY : Unit_2/2_26.cpp.i
+
+Unit_2/2_26.s: Unit_2/2_26.cpp.s
+
+.PHONY : Unit_2/2_26.s
+
+# target to generate assembly for a file
+Unit_2/2_26.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_26.dir\build.make CMakeFiles/2_26.dir/Unit_2/2_26.cpp.s
+.PHONY : Unit_2/2_26.cpp.s
+
+Unit_2/2_27.obj: Unit_2/2_27.cpp.obj
+
+.PHONY : Unit_2/2_27.obj
+
+# target to build an object file
+Unit_2/2_27.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_27.dir\build.make CMakeFiles/2_27.dir/Unit_2/2_27.cpp.obj
+.PHONY : Unit_2/2_27.cpp.obj
+
+Unit_2/2_27.i: Unit_2/2_27.cpp.i
+
+.PHONY : Unit_2/2_27.i
+
+# target to preprocess a source file
+Unit_2/2_27.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_27.dir\build.make CMakeFiles/2_27.dir/Unit_2/2_27.cpp.i
+.PHONY : Unit_2/2_27.cpp.i
+
+Unit_2/2_27.s: Unit_2/2_27.cpp.s
+
+.PHONY : Unit_2/2_27.s
+
+# target to generate assembly for a file
+Unit_2/2_27.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_27.dir\build.make CMakeFiles/2_27.dir/Unit_2/2_27.cpp.s
+.PHONY : Unit_2/2_27.cpp.s
+
+Unit_2/2_28.obj: Unit_2/2_28.cpp.obj
+
+.PHONY : Unit_2/2_28.obj
+
+# target to build an object file
+Unit_2/2_28.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_28.dir\build.make CMakeFiles/2_28.dir/Unit_2/2_28.cpp.obj
+.PHONY : Unit_2/2_28.cpp.obj
+
+Unit_2/2_28.i: Unit_2/2_28.cpp.i
+
+.PHONY : Unit_2/2_28.i
+
+# target to preprocess a source file
+Unit_2/2_28.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_28.dir\build.make CMakeFiles/2_28.dir/Unit_2/2_28.cpp.i
+.PHONY : Unit_2/2_28.cpp.i
+
+Unit_2/2_28.s: Unit_2/2_28.cpp.s
+
+.PHONY : Unit_2/2_28.s
+
+# target to generate assembly for a file
+Unit_2/2_28.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\2_28.dir\build.make CMakeFiles/2_28.dir/Unit_2/2_28.cpp.s
+.PHONY : Unit_2/2_28.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -300,6 +460,10 @@ help:
 	@echo ... 1_11
 	@echo ... 1_12
 	@echo ... 1_13
+	@echo ... 2_25
+	@echo ... 2_26
+	@echo ... 2_27
+	@echo ... 2_28
 	@echo ... main
 	@echo ... Unit_1/1_11.obj
 	@echo ... Unit_1/1_11.i
@@ -310,6 +474,18 @@ help:
 	@echo ... Unit_1/1_13.obj
 	@echo ... Unit_1/1_13.i
 	@echo ... Unit_1/1_13.s
+	@echo ... Unit_2/2_25.obj
+	@echo ... Unit_2/2_25.i
+	@echo ... Unit_2/2_25.s
+	@echo ... Unit_2/2_26.obj
+	@echo ... Unit_2/2_26.i
+	@echo ... Unit_2/2_26.s
+	@echo ... Unit_2/2_27.obj
+	@echo ... Unit_2/2_27.i
+	@echo ... Unit_2/2_27.s
+	@echo ... Unit_2/2_28.obj
+	@echo ... Unit_2/2_28.i
+	@echo ... Unit_2/2_28.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
