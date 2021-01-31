@@ -11,7 +11,7 @@ int main() {
     char tickets;
     bool hadTickets;
     double gpa;
-    int points;
+    int points = 0;
 
     // Get user input
     cout << "Freshman (F), Sophomore (O), Junior (J), Senior (S): ";
