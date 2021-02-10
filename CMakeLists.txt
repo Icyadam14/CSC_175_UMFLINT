@@ -23,3 +23,9 @@ add_executable(2_29 Unit_2/2_29.cpp)
 add_executable(3_21 Unit_3/3_21.cpp)
 add_executable(3_22 Unit_3/3_22.cpp)
 add_executable(3_23 Unit_3/3_23.cpp)
+
+# Unit 4 exe
+add_executable(4_14 Unit_4/4_14.cpp)
+add_executable(4_15 Unit_4/4_15.cpp)
+add_executable(4_16 Unit_4/4_16.cpp)
+add_executable(4_17 Unit_4/4_17.cpp)
