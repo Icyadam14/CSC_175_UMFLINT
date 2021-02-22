@@ -3,27 +3,19 @@ using namespace std;
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
+    char letter1;
+    char letter2;
 
-    int stop;
-    int result;
-    int a;
-    int b;
 
-    cin >> stop;
-    result = 0;
-
-    for (a = 0; a < 3; ++a) {
-        cout << a << ": ";
-        for (b = 0; b < 4; ++b) {
-            result += a + b;
-            if (result > stop) {
-                cout << "_ ";
-                continue;
-            }
-            cout << result << ",";
+    letter1 = 'p';
+    while (letter1 <= 'q') {
+        letter2 = 'x';
+        while (letter2 <= 'y') {
+            cout << letter1 << letter2 << " ";
+            ++letter2;
         }
-        cout << endl;
+        ++letter1;
     }
-
     return 0;
+
 }
