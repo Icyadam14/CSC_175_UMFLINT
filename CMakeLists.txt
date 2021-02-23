@@ -18,3 +18,22 @@ add_executable(2_26 Unit_2/2_26.cpp)
 add_executable(2_27 Unit_2/2_27.cpp)
 add_executable(2_28 Unit_2/2_28.cpp)
 add_executable(2_29 Unit_2/2_29.cpp)
+
+# Unit 3 exe
+add_executable(3_21 Unit_3/3_21.cpp)
+add_executable(3_22 Unit_3/3_22.cpp)
+add_executable(3_23 Unit_3/3_23.cpp)
+
+# Unit 4 exe
+add_executable(4_14 Unit_4/4_14.cpp)
+add_executable(4_15 Unit_4/4_15.cpp)
+add_executable(4_16 Unit_4/4_16.cpp)
+add_executable(4_17 Unit_4/4_17.cpp)
+
+# Unit 5 exe
+add_executable(5_22 Unit_5/5_22.cpp)
+add_executable(5_23 Unit_5/5_23.cpp)
+add_executable(5_24 Unit_5/5_24.cpp)
+add_executable(5_25 Unit_5/5_25.cpp)
+add_executable(5_26 Unit_5/5_26.cpp)
+add_executable(5_27 Unit_5/5_27.cpp)
