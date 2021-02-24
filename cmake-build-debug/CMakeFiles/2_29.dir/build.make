@@ -76,27 +76,27 @@ include CMakeFiles/2_29.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/2_29.dir/flags.make
 
-CMakeFiles/2_29.dir/Unit_2/2_29.obj: CMakeFiles/2_29.dir/flags.make
-CMakeFiles/2_29.dir/Unit_2/2_29.obj: ../Unit_2/2_29.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2_29.dir/Unit_2/2_29.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2_29.dir\Unit_2\2_29.obj -c "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_2\2_29.cpp"
+CMakeFiles/2_29.dir/Unit_2/2_29.cpp.obj: CMakeFiles/2_29.dir/flags.make
+CMakeFiles/2_29.dir/Unit_2/2_29.cpp.obj: ../Unit_2/2_29.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/2_29.dir/Unit_2/2_29.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\2_29.dir\Unit_2\2_29.cpp.obj -c "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_2\2_29.cpp"
 
-CMakeFiles/2_29.dir/Unit_2/2_29.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2_29.dir/Unit_2/2_29.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_2\2_29.cpp" > CMakeFiles\2_29.dir\Unit_2\2_29.i
+CMakeFiles/2_29.dir/Unit_2/2_29.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/2_29.dir/Unit_2/2_29.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_2\2_29.cpp" > CMakeFiles\2_29.dir\Unit_2\2_29.cpp.i
 
-CMakeFiles/2_29.dir/Unit_2/2_29.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_29.dir/Unit_2/2_29.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_2\2_29.cpp" -o CMakeFiles\2_29.dir\Unit_2\2_29.s
+CMakeFiles/2_29.dir/Unit_2/2_29.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/2_29.dir/Unit_2/2_29.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_2\2_29.cpp" -o CMakeFiles\2_29.dir\Unit_2\2_29.cpp.s
 
 # Object files for target 2_29
 2_29_OBJECTS = \
-"CMakeFiles/2_29.dir/Unit_2/2_29.obj"
+"CMakeFiles/2_29.dir/Unit_2/2_29.cpp.obj"
 
 # External object files for target 2_29
 2_29_EXTERNAL_OBJECTS =
 
-2_29.exe: CMakeFiles/2_29.dir/Unit_2/2_29.obj
+2_29.exe: CMakeFiles/2_29.dir/Unit_2/2_29.cpp.obj
 2_29.exe: CMakeFiles/2_29.dir/build.make
 2_29.exe: CMakeFiles/2_29.dir/linklibs.rsp
 2_29.exe: CMakeFiles/2_29.dir/objects1.rsp

@@ -1,21 +1,13 @@
 #include <iostream>
+#include "vector"
 using namespace std;
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
-    char letter1;
-    char letter2;
-
-
-    letter1 = 'p';
-    while (letter1 <= 'q') {
-        letter2 = 'x';
-        while (letter2 <= 'y') {
-            cout << letter1 << letter2 << " ";
-            ++letter2;
-        }
-        ++letter1;
-    }
-    return 0;
-
+    vector<int> userValues;
+    int userNum;
+    userNum = 0;
+    userValues.push_back(45);
+    userValues.push_back(55);
+    userNum = userValues.pop_back();
+    cout << userNum;
 }

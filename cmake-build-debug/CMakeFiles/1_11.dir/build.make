@@ -76,27 +76,27 @@ include CMakeFiles/1_11.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/1_11.dir/flags.make
 
-CMakeFiles/1_11.dir/Unit_1/1_11.obj: CMakeFiles/1_11.dir/flags.make
-CMakeFiles/1_11.dir/Unit_1/1_11.obj: ../Unit_1/1_11.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1_11.dir/Unit_1/1_11.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1_11.dir\Unit_1\1_11.obj -c "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_1\1_11.cpp"
+CMakeFiles/1_11.dir/Unit_1/1_11.cpp.obj: CMakeFiles/1_11.dir/flags.make
+CMakeFiles/1_11.dir/Unit_1/1_11.cpp.obj: ../Unit_1/1_11.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/1_11.dir/Unit_1/1_11.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\1_11.dir\Unit_1\1_11.cpp.obj -c "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_1\1_11.cpp"
 
-CMakeFiles/1_11.dir/Unit_1/1_11.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1_11.dir/Unit_1/1_11.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_1\1_11.cpp" > CMakeFiles\1_11.dir\Unit_1\1_11.i
+CMakeFiles/1_11.dir/Unit_1/1_11.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/1_11.dir/Unit_1/1_11.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_1\1_11.cpp" > CMakeFiles\1_11.dir\Unit_1\1_11.cpp.i
 
-CMakeFiles/1_11.dir/Unit_1/1_11.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1_11.dir/Unit_1/1_11.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_1\1_11.cpp" -o CMakeFiles\1_11.dir\Unit_1\1_11.s
+CMakeFiles/1_11.dir/Unit_1/1_11.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/1_11.dir/Unit_1/1_11.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\Adam Kahl\CLionProjects\CSC_175_UMFLINT\Unit_1\1_11.cpp" -o CMakeFiles\1_11.dir\Unit_1\1_11.cpp.s
 
 # Object files for target 1_11
 1_11_OBJECTS = \
-"CMakeFiles/1_11.dir/Unit_1/1_11.obj"
+"CMakeFiles/1_11.dir/Unit_1/1_11.cpp.obj"
 
 # External object files for target 1_11
 1_11_EXTERNAL_OBJECTS =
 
-1_11.exe: CMakeFiles/1_11.dir/Unit_1/1_11.obj
+1_11.exe: CMakeFiles/1_11.dir/Unit_1/1_11.cpp.obj
 1_11.exe: CMakeFiles/1_11.dir/build.make
 1_11.exe: CMakeFiles/1_11.dir/linklibs.rsp
 1_11.exe: CMakeFiles/1_11.dir/objects1.rsp
