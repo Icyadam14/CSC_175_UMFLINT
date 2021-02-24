@@ -37,3 +37,11 @@ add_executable(5_24 Unit_5/5_24.cpp)
 add_executable(5_25 Unit_5/5_25.cpp)
 add_executable(5_26 Unit_5/5_26.cpp)
 add_executable(5_27 Unit_5/5_27.cpp)
+
+# Unit 6 exe
+add_executable(6_25 Unit_6/6_25.cpp)
+add_executable(6_26 Unit_6/6_26.cpp)
+add_executable(6_27 Unit_6/6_27.cpp)
+add_executable(6_28 Unit_6/6_28.cpp)
+add_executable(6_29 Unit_6/6_29.cpp)
+add_executable(6_30 Unit_6/6_30.cpp)
