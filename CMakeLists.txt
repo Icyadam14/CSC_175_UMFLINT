@@ -45,3 +45,6 @@ add_executable(6_27 Unit_6/6_27.cpp)
 add_executable(6_28 Unit_6/6_28.cpp)
 add_executable(6_29 Unit_6/6_29.cpp)
 add_executable(6_30 Unit_6/6_30.cpp)
+
+# Unit 7 exe
+add_executable(7_8 Unit_7/7_8.cpp)

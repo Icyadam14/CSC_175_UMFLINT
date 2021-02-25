@@ -493,6 +493,19 @@ main/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\6_27.dir\build.make CMakeFiles/6_27.dir/build
 .PHONY : 6_27/fast
 
+#=============================================================================
+# Target rules for targets named 7_8
+
+# Build rule for target.
+7_8: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 7_8
+.PHONY : 7_8
+
+# fast build rule for target.
+7_8/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_8.dir\build.make CMakeFiles/7_8.dir/build
+.PHONY : 7_8/fast
+
 # target to build an object file
 Unit_1/1_11.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\1_11.dir\build.make CMakeFiles/1_11.dir/Unit_1/1_11.obj
@@ -899,6 +912,21 @@ Unit_6/6_30.s:
 .PHONY : Unit_6/6_30.s
 
 # target to build an object file
+Unit_7/7_8.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_8.dir\build.make CMakeFiles/7_8.dir/Unit_7/7_8.obj
+.PHONY : Unit_7/7_8.obj
+
+# target to preprocess a source file
+Unit_7/7_8.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_8.dir\build.make CMakeFiles/7_8.dir/Unit_7/7_8.i
+.PHONY : Unit_7/7_8.i
+
+# target to generate assembly for a file
+Unit_7/7_8.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\7_8.dir\build.make CMakeFiles/7_8.dir/Unit_7/7_8.s
+.PHONY : Unit_7/7_8.s
+
+# target to build an object file
 main.obj:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\main.dir\build.make CMakeFiles/main.dir/main.obj
 .PHONY : main.obj
@@ -948,6 +976,7 @@ help:
 	@echo ... 6_28
 	@echo ... 6_29
 	@echo ... 6_30
+	@echo ... 7_8
 	@echo ... main
 	@echo ... Unit_1/1_11.obj
 	@echo ... Unit_1/1_11.i
@@ -1030,6 +1059,9 @@ help:
 	@echo ... Unit_6/6_30.obj
 	@echo ... Unit_6/6_30.i
 	@echo ... Unit_6/6_30.s
+	@echo ... Unit_7/7_8.obj
+	@echo ... Unit_7/7_8.i
+	@echo ... Unit_7/7_8.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

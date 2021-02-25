@@ -1,13 +1,24 @@
-#include <iostream>
-#include "vector"
-using namespace std;
+//
+// Created by Adam Kahl on 2/24/2021.
+//
 
-int main() {
-    vector<int> userValues;
-    int userNum;
-    userNum = 0;
-    userValues.push_back(45);
-    userValues.push_back(55);
-    userNum = userValues.pop_back();
-    cout << userNum;
+
+#include <iostream>
+#include <fstream>
+
+int main()
+{
+    // in this function, we want to export the items to a text file
+    std::ofstream myfile("test.txt");
+//    myfile.open("TodayTime.txt");
+    if (myfile.is_open())
+    {
+        myfile << "The average call time is ";
+        myfile.flush();
+        myfile.close();
+    }
+    else
+    {
+        std::cerr << "didn't write" << std::endl;
+    }
 }
